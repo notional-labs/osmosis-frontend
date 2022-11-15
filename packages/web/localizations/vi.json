@@ -1,0 +1,379 @@
+{
+    "app": {
+      "banner": {
+        "title": "Bạn đang xem tất cả nội dung không được phép.",
+        "linkText": "Bạn đang xem tất cả nội dung không được phép. <link> Nhấp vào đây để quay lại ứng dụng chính </link>."
+      }
+    },
+    "swap": {
+      "title": "Hoán đổi",
+      "settings": {
+        "title": "Cài đặt giao dịch",
+        "slippage": "Khả năng trượt",
+        "slippageInfo": "Nếu tỷ giá hối đoái thay đổi vượt quá mức này, giao dịch sẽ bị hủy bỏ."
+      },
+      "available": "Số lượng có sẵn",
+      "MAX": "Tối đa",
+      "HALF": "Một nửa",
+      "button": "Hoán đổi",
+      "buttonError": "Vẫn hoán đổi",
+      "priceImpact": "Thay đổi về giá",
+      "fee": "Phí hoán đổi ({fee})",
+      "expectedOutput": "Đầu ra mong đợi",
+      "minimumSlippage": "Số tiền tối thiểu nhận được sau khi trượt giá ({slippage})",
+      "error": {
+        "findCurrency": "Không thể tìm thấy đơn vị tiền tệ {currency}"
+      }
+    },
+    "pools": {
+      "title": "Pool đang hoạt động",
+      "poolId": "Pool #{id}",
+      "priceOsmo": "Giá OSMO",
+      "rewardDistribution": "Phân phối phần thưởng trong",
+      "myPools": "Pool của tôi",
+      "APR": "APR",
+      "available": "Số lượng có sẵn",
+      "liquidity": "Tính thanh khoản pool",
+      "bonded": "Bonded",
+      "incentivized": "Được khuyến nghị",
+      "all": "Tất cả pool",
+      "allTab": "Tất cả",
+      "superfluid": {
+        "title": "Superfluid Pools",
+        "tab": "Superfluid",
+        "APR": "APR",
+        "liquidity": "Thanh khoản pool",
+        "fees7D": "Lệ phí (7D)"
+      },
+      "allPools": {
+        "title": "Tất cả pool",
+        "myLiquidity": "Thanh khoản của tôi",
+        "TVL": "TVL",
+        "APR": "APR",
+        "APRIncentivized": "7d Vol.",
+        "search": "Tìm kiếm pool",
+        "displayLowLiquidity": "Hiển thị pool < {value}",
+        "sort": {
+          "poolName": "Tên pool",
+          "liquidity": "Thanh khoản",
+          "volume24h": "khối lượng (24H)",
+          "fees": "Lệ phí (7D)",
+          "APRIncentivized": "APR",
+          "APR": "Thanh khoản của tôi",
+          "poolId": "pool ID"
+        }
+      },
+      "externalIncentivized": {
+        "title": "Khuyến nghị bên ngoài",
+        "TVL": "TVL",
+        "APR": "APR",
+        "search": "Tìm kiếm theo kí hiệu",
+        "sort": {
+          "poolName": "Tên pool",
+          "liquidity": "Thanh khoản",
+          "APR": "APR",
+          "epochs": "Thời gian còn lại",
+          "myLiquidity": "Thanh khoản của tôi"
+        }
+      },
+      "createPool": {
+        "title": "Tạo pool mới",
+        "button": "Tạo pool mới",
+        "step": {
+          "one": "{step} / {nbStep} bước - đặt tỷ lệ token",
+          "two": "{step} / {nbStep} bước - nhập số tiền cần thêm",
+          "three": "{step} / {nbStep} bước - xác nhận tỷ lệ pool và số lượng token"
+        },
+        "infoMessage": "Phí tạo pool",
+        "infoCaption": "Chuyển pool đến cộng đồng Osmosis",
+        "buttonCreate": "Tạo pool",
+        "buttonNext": "Tiếp theo",
+        "buttonBack": "Trước đó",
+        "buttonAddToken": "Thêm token mới",
+        "available": "Có sẵn",
+        "amount": "Số tiền",
+        "token": "Token",
+        "swapFee": "Phí hoán đổi",
+        "undersandCost": "Tôi biết việc tạo pool mới sẽ tốn phí {POOL_CREATION_FEE}",
+        "interestedCreate": "Hãy xem pool mới?",
+        "startProcess": "Nhấn vào đây để bắt đầu."
+      }
+    },
+    "pool": {
+      "title": "pool #{id}",
+      "swap": "Hoán đổi token",
+      "superfluidEnabled": "Bật tính năng Superfluid",
+      "24hrTradingVolume": "Khối lượng giao trịnh trong 24h",
+      "liquidity": "Thanh khoản pool",
+      "swapFee": "Phí hoán đổi",
+      "yourStats": "Trạng thái yourStats",
+      "sharesAmount": "Lượt chia sẻ {shares}",
+      "currentDailyEarn": "Hiện tại kiếm được",
+      "earnMore": "Kiếm được nhiều hơn bằng cách liên kết",
+      "dailyEarnAmount": "{amount} / ngày",
+      "putAssetsToWork": "Đưa tài sản của bạn hoạt động.",
+      "putAssetsToWorkCaption": "Thêm nội dung của bạn vào pool này để mở khoá các APR. Không giới hạn thời gian, càng dài bạn càng sinh lời nhiều",
+      "learnMore": "Tìm thêm",
+      "level": "cấp {level}",
+      "earnSwapFees": "Phí hoán đổi earn",
+      "earnSwapFeesCaption": "Chuyển đổi mã thông báo của bạn thành cổ phiếu và kiếm tiền trên mỗi lần hoán đổi.",
+      "APR": "APR",
+      "bondLiquidity": "Tính thanh khoản của Bond",
+      "bondLiquidityUnavailable": "Tính thanh khoản của Bond không khả dụng",
+      "checkBackForBondingRewards": "Kiểm tra lại để nhận phần thưởng liên kết",
+      "bondLiquidityCaption": "Khóa bond của bạn trong thời gian dài hơn để kiếm APR cao hơn.",
+      "bondSuperfluidLiquidityCaption": "Chuyển sang Superfluid để nhận được phần thưởng tối đa",
+      "bondShares": "Bond Shares",
+      "amountDaysUnbonding": "Ngày huỷ liên kết {numDays}",
+      "shares": "shares",
+      "unbonded": "Unbonded",
+      "unbond": "Huỷ bỏ",
+      "bonded": "bonded",
+      "showDetails": "Hiển thị chi tiết",
+      "collapseDetails": "Thu gọn",
+      "sharesAvailableIn": "có sẵn",
+      "unbonding": "unbonding",
+      "superfluidEarnMore": "Earn {rate} more. Go superfluid",
+      "incentives": "khuyến nghị",
+      "details": "chi tiết",
+      "rewardDistribution": "Phần thưởng được phân phối cho tất cả các nhà cung cấp thanh khoản",
+      "superfluidStaking": "Đặt cượcSuperfluid",
+      "delegated": "Uỷ quyền",
+      "undelegating": "Không uỷ quyền",
+      "commission": "Hoa hồng",
+      "numDaysRemaining": "Còn lại {numDays} ngày",
+      "from": "Từ",
+      "swapFees": "Phí hoán đổi",
+      "7davg": "trung bình 7 ngày (7d avg)"
+    },
+    "removeLiquidity": {
+      "title": "Xóa tính thanh khoản",
+      "titleInPool": "Xóa thanh khoản khỏi pool # {poolId}",
+      "sharesAmount": "Lượt chia sẻ {shares}"
+    },
+    "addLiquidity": {
+      "title": "Thêm tính thanh khoản",
+      "titleInPool": "Thêm thanh khoản vào pool # {poolId}",
+      "allAssets": "Tất cả tài sản",
+      "singleAsset": "Một tài sản",
+      "available": "có sẵn",
+      "autoswapCaption": "Sử dụng autoswap để thêm tính thanh khoản với một tài sản.",
+      "stablecoinWarning": "Bạn đang bổ sung tính thanh khoản cho {denom}, một stablecoin được hỗ trợ bởi {mechanism}."
+    },
+    "lockToken": {
+      "title": "Bond LP Shares",
+      "titleInPool": "Khóa Shares trong nhóm #{poolId}" ,
+      "selectPeriod": "Chọn khoảng thời gian hủy liên kết",
+      "availableToken": "Có sẵn",
+      "amountToBond": "Số tiền liên kết",
+      "superfluidStake": "Cổ phần Superfluid",
+      "bondingRequirement": "Yêu cầu liên kết ngày {numDays}",
+      "buttonNext": "Tiếp theo",
+      "buttonBond": "Bond",
+      "buttonBondStake": "Bond & Stake"
+    },
+    "superfluidValidator": {
+      "title": "Chọn Trình xác thực Superfluid",
+      "titleMobile": "Chọn Trình xác thực",
+      "choose": "Chọn Trình xác thực Superfluid của bạn",
+      "search": "Tìm kiếm theo tên",
+      "bondedAmount": "Số tiền binded",
+      "estimation": "Ước tính Superfluid Delegation",
+      "estimationMobile": "Ước tính Delegation",
+      "estimationInfo": "Giá trị của Delegation này dao động và được ước tính dựa trên số lượng OSMO trong pool.",
+      "buttonBond": "Bond & Stake",
+      "columns": {
+        "validator": "Validator",
+        "commission": "Hoa hồng"
+      }
+    },
+    "assets": {
+      "totalAssets": "Tổng tài sản",
+      "unbondedAssets": "Unbonded",
+      "bondedAssets": "Bonded",
+      "stakedAssets": "OSMO cổ phần",
+      "myPools": "Pool của tôi",
+      "transferAssetSelect": {
+        "deposit": "Đặt cọc ",
+        "withdraw": "Rút ra",
+        "network": "Mạng",
+        "buttonNext": "Tiếp theo"
+      },
+      "poolCards": {
+        "APR": "APR",
+        "FeeAPY": "Phí APY",
+        "liquidity": "Thanh khoản chung",
+        "bonded": "Bonded",
+        "myLiquidity": "Thanh khoản của tôi"
+      },
+      "ibcTransfer": {
+        "titleWithdraw": "Rút {coinDenom}",
+        "titleDeposit": "Gửi {coinDenom}",
+        "selectAmount": "Chọn số lượng",
+        "estimatedTime": "Thời gian ước tính",
+        "waitTime": "20 giây",
+        "copied": "Đã sao chép!",
+        "IBCTransfer": "Chuyển IBC",
+        "from": "từ",
+        "to": "đến",
+        "warningLossFunds": "Cảnh báo: Rút tiền về địa chỉ trao đổi trung tâm sẽ dẫn đến mất tiền.",
+        "buttonEnter": "Nhập",
+        "checkboxVerify": "Tôi xác minh rằng tôi không gửi đến địa chỉ trao đổi.",
+        "buttonEdit": "Chỉnh sửa",
+        "amoutWithdraw": "Số tiền cần rút",
+        "amoutDeposit": "Số tiền gửi",
+        "availableBalance": "Số dư khả dụng:",
+        "MAX": "Tối đa"
+      },
+      "transfer": {
+        "titleWithdraw": "Rút {coinDenom}",
+        "titleDeposit": "Gửi {coinDenom}",
+        "warnDepositAddressDifferent": "Cảnh báo: tài khoản đã chọn trong {address} khác với tài khoản bạn đã gửi lần cuối.",
+        "from": "Từ",
+        "to": "Tới",
+        "via": "Qua",
+        "loading": "Đang tải",
+        "availableOn": "Có sẵn trên {network}",
+        "availableMobile": "Có sẵn",
+        "transferFee": "Phí chuyển",
+        "errors": {
+          "reconnectWallet": "Kết nối lại {walletName}",
+          "wrongNetworkInWallet": "Sai mạng trong {walletName}",
+          "insufficientFee": "Phí không đủ",
+          "insufficientBal": "Số dư không đủ"
+        },
+        "wrapNativeLink": "Chuyển đổi {fromDenom} thành {toDenom} trên {platformName}",
+        "waitTime": "{minutes} Phút"
+      },
+      "selectAssetSource": {
+        "titleWithdraw": "Rút về",
+        "titleDeposit": "Gửi đi từ",
+        "next": "Tiếp theo",
+        "installWallet": "Cài đặt {walletName}"
+      },
+      "table": {
+        "depositButton": "Gửi tiền",
+        "withdrawButton": "Rút tiền",
+        "search": "Tìm theo kí tự",
+        "title": "Tài sản",
+        "hideZero": "Ẩn số dư bằng 0",
+        "buyOsmo": "Mua",
+        "preTransfer": {
+          "deposit": "Đặt cọc",
+          "withdraw": "Rút tiền",
+          "currentBal": "Số dư hiện tại"
+        },
+        "columns": {
+          "assetChain": "tài sản / chuỗi",
+          "balance": "Số dư",
+          "transfer": "Chuyển",
+          "deposit": "Đặt cọc",
+          "withdraw": "Rút tiền"
+        },
+        "sort": {
+          "symbol": "Biểu tượng",
+          "network": "Mạng",
+          "balance": "Số dư"
+        }
+      },
+      "historyTable": {
+        "title": "Lịch sử giao dịch",
+        "pending": "Đang chờ xử lý",
+        "success": "Thành công",
+        "refunded": "Đã hoàn thành",
+        "pendingRefunded": "Không thành công: Tiền hoàn lại đang chờ xử lý" ,
+        "colums": {
+          "transactionHash": "Mã băm giao dịch",
+          "type": "Loại",
+          "amount": "Số tiền",
+          "status": "Trạng thái",
+          "deposit": "Tiền gửi",
+          "withdraw": "Rút tiền"
+        }
+      }
+    },
+    "components": {
+      "show": {
+        "more": "Xem thêm",
+        "less": "Ẩn bớt"
+      },
+      "table": {
+        "poolId": "Pool #{id}"
+      },
+      "sort": {
+        "SORT": "Sắp xếp theo",
+        "SORTMobile": "Sắp xếp",
+        "mobileMenu": "Sắp xếp theo"
+      },
+      "MAX": "Tối đa",
+      "searchTokens": "Tìm tokens"
+    },
+    "menu": {
+      "swap": "Hoán đổi",
+      "pools": "pools",
+      "assets": "Tài sản",
+      "stake": "Cổ phần",
+      "vote": "Bỏ phiếu",
+      "info": "Số liệu thống kê",
+      "signOut": "Ngắt kết nối",
+      "help": "Nhận hỗ trợ Lab",
+      "learnMoreFrontier": "Tìm hiểu thêm<br/>Giới thiệu về<br2/> <name>Osmosis Frontier</name>"
+    },
+    "settings": {
+      "title": "Cài đặt",
+      "titleLanguage": "Ngôn ngữ",
+      "titleShowDust": "Hiển thị pools/tài sản < {fiatSymbol}0.01"
+    },
+    "404": {
+      "title": "Không tìm thấy"
+    },
+    "500": {
+      "title": "Lỗi máy chủ"
+    },
+    "errors": {
+      "emptyAmount": "Số tiền trống" ,
+      "invalidNumberAmount": "Dạng số không hợp lệ",
+      "zeroAmount": "Số tiền bằng không",
+      "negativeAmount": "Số tiền là âm",
+      "insufficientAmount": "Số dư không đủ",
+      "negativeSwapFee": "Phí hoán đổi là âm",
+      "highSwapFee": "Phí hoán đổi quá cao",
+      "invalidSwapFee": "Phí hoán đổi không hợp lệ",
+      "minAssetsCount": "Yêu cầu tối thiểu {num} tài sản",
+      "maxAssetsCount": "Cho phép tối đa {num} tài sản",
+      "negativePercentage": "Phần trăm phải dương",
+      "percentageSum": "Không được phép quá 100 phần trăm",
+      "depositNoBalance": "Bạn không có tài sản nào để kí gửi",
+      "negativeSlippage": "Slippage không được âm",
+      "invalidSlippage": "Slippage không hợp lệ",
+      "noSendCurrency": "Đơn vị tiền tệ để gửi chưa được đặt",
+      "notInitialized": "Chưa được khởi tạo",
+      "insufficientBal": "Số dư không đủ",
+      "calculatingShareOutAmount": "Sự cố khi tính toán số tiền",
+      "noAvailableShares": "Không có cổ phiếu {denom}",
+      "generic": "Lỗi"
+    },
+    "connectWallet": "Kết nối ví",
+    "keplr": {
+      "install": "Cài đặt Keplr",
+      "wallet": "Ví Keplr",
+      "extension": "Phần mở rộng trình duyệt Keplr",
+      "walletConnect": "Kết nối ví",
+      "mobile": "Keplr Mobile"
+    },
+    "connectDisclaimer": "Bằng cách kết nối ví, bạn xác nhận rằng bạn đã đọc và hiểu Osmosis",
+    "protocolDisclaimer": "Tuyên bố từ chối trách nhiệm về giao thức",
+    "Transaction Failed": "Giao dịch không thành công ",
+    "Transaction Successful": "Giao dịch thành công",
+    "Transaction Broadcasting": "Truyền phát giao dịch",
+    "Swap failed. Liquidity may not be sufficient. Try adjusting the allowed slippage.": "Hoán đổi không thành công. Thanh khoản có thể không đủ. Hãy thử điều chỉnh mức trượt cho phép.",
+    "Waiting for transaction to be included in the block": "Đang chờ giao dịch được đưa vào khối",
+    "view explorer": "Xem explorer",
+    "Unknown error": "Lỗi không xác định",
+    "Request rejected": "Yêu cầu bị từ chối",
+    "Amount is empty": "Số tiền trống",
+    "Insufficient amount": "Không đủ tiền",
+    "Amount is zero": "Không thể gửi số tiền là không",
+    "Minimum of 2 assets required": "Yêu cầu tối thiểu hai tài sản"
+  }
+  
