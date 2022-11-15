@@ -1,8 +1,8 @@
 {
     "app": {
       "banner": {
-        "title": "Bạn đang xem tất cả nội dung không được phép.",
-        "linkText": "Bạn đang xem tất cả nội dung không được phép. <link> Nhấp vào đây để quay lại ứng dụng chính </link>."
+        "title": "Bạn đang xem tất cả tài sản không được phép.",
+        "linkText": "Bạn đang xem tất cả tài sản không được phép. <link> Nhấp vào đây để quay lại ứng dụng chính </link>."
       }
     },
     "swap": {
@@ -26,41 +26,41 @@
       }
     },
     "pools": {
-      "title": "Pool đang hoạt động",
-      "poolId": "Pool #{id}",
+      "title": "Bể đang hoạt động",
+      "poolId": "Bể thanh khoản #{id}",
       "priceOsmo": "Giá OSMO",
       "rewardDistribution": "Phân phối phần thưởng trong",
-      "myPools": "Pool của tôi",
+      "myPools": "Bể thanh khoản của tôi",
       "APR": "APR",
       "available": "Số lượng có sẵn",
-      "liquidity": "Tính thanh khoản pool",
+      "liquidity": "Bể thanh khoản",
       "bonded": "Bonded",
       "incentivized": "Được khuyến nghị",
-      "all": "Tất cả pool",
+      "all": "Tất cả bể thanh khoản",
       "allTab": "Tất cả",
       "superfluid": {
-        "title": "Superfluid Pools",
-        "tab": "Superfluid",
+        "title": "Bể Superfluid",
+        "tab": "Bể Superfluid",
         "APR": "APR",
-        "liquidity": "Thanh khoản pool",
+        "liquidity": "Bể thanh khoản",
         "fees7D": "Lệ phí (7D)"
       },
       "allPools": {
-        "title": "Tất cả pool",
+        "title": "Tất cả bể thanh khoản",
         "myLiquidity": "Thanh khoản của tôi",
         "TVL": "TVL",
         "APR": "APR",
         "APRIncentivized": "7d Vol.",
-        "search": "Tìm kiếm pool",
-        "displayLowLiquidity": "Hiển thị pool < {value}",
+        "search": "Tìm kiếm bể thanh khoản",
+        "displayLowLiquidity": "Hiển thị bể thanh khoản < {value}",
         "sort": {
-          "poolName": "Tên pool",
+          "poolName": "Tên bể",
           "liquidity": "Thanh khoản",
           "volume24h": "khối lượng (24H)",
           "fees": "Lệ phí (7D)",
           "APRIncentivized": "APR",
           "APR": "Thanh khoản của tôi",
-          "poolId": "pool ID"
+          "poolId": "ID bể thanh khoản"
         }
       },
       "externalIncentivized": {
@@ -69,7 +69,7 @@
         "APR": "APR",
         "search": "Tìm kiếm theo kí hiệu",
         "sort": {
-          "poolName": "Tên pool",
+          "poolName": "Tên bể thanh khoản",
           "liquidity": "Thanh khoản",
           "APR": "APR",
           "epochs": "Thời gian còn lại",
@@ -77,16 +77,16 @@
         }
       },
       "createPool": {
-        "title": "Tạo pool mới",
-        "button": "Tạo pool mới",
+        "title": "Tạo bể thanh khoản mới",
+        "button": "Tạo bể thanh khoản mới",
         "step": {
           "one": "{step} / {nbStep} bước - đặt tỷ lệ token",
           "two": "{step} / {nbStep} bước - nhập số tiền cần thêm",
-          "three": "{step} / {nbStep} bước - xác nhận tỷ lệ pool và số lượng token"
+          "three": "{step} / {nbStep} bước - xác nhận tỷ lệ bể và số lượng token"
         },
-        "infoMessage": "Phí tạo pool",
-        "infoCaption": "Chuyển pool đến cộng đồng Osmosis",
-        "buttonCreate": "Tạo pool",
+        "infoMessage": "Phí tạo bể",
+        "infoCaption": "Chuyển bể thanh khoản đến cộng đồng Osmosis",
+        "buttonCreate": "Tạo bể thanh khoản",
         "buttonNext": "Tiếp theo",
         "buttonBack": "Trước đó",
         "buttonAddToken": "Thêm token mới",
@@ -94,17 +94,17 @@
         "amount": "Số tiền",
         "token": "Token",
         "swapFee": "Phí hoán đổi",
-        "undersandCost": "Tôi biết việc tạo pool mới sẽ tốn phí {POOL_CREATION_FEE}",
-        "interestedCreate": "Hãy xem pool mới?",
+        "undersandCost": "Tôi biết việc tạo bể thanh khoản mới sẽ tốn phí {POOL_CREATION_FEE}",
+        "interestedCreate": "Hãy xem bể mới?",
         "startProcess": "Nhấn vào đây để bắt đầu."
       }
     },
     "pool": {
-      "title": "pool #{id}",
+      "title": "Bể thanh khoản #{id}",
       "swap": "Hoán đổi token",
       "superfluidEnabled": "Bật tính năng Superfluid",
       "24hrTradingVolume": "Khối lượng giao trịnh trong 24h",
-      "liquidity": "Thanh khoản pool",
+      "liquidity": "Bể thanh khoản",
       "swapFee": "Phí hoán đổi",
       "yourStats": "Trạng thái yourStats",
       "sharesAmount": "Lượt chia sẻ {shares}",
@@ -112,7 +112,7 @@
       "earnMore": "Kiếm được nhiều hơn bằng cách liên kết",
       "dailyEarnAmount": "{amount} / ngày",
       "putAssetsToWork": "Đưa tài sản của bạn hoạt động.",
-      "putAssetsToWorkCaption": "Thêm nội dung của bạn vào pool này để mở khoá các APR. Không giới hạn thời gian, càng dài bạn càng sinh lời nhiều",
+      "putAssetsToWorkCaption": "Thêm nội dung của bạn vào bể thanh khoản này để mở khoá các APR. Không giới hạn thời gian, càng dài bạn càng sinh lời nhiều",
       "learnMore": "Tìm thêm",
       "level": "cấp {level}",
       "earnSwapFees": "Phí hoán đổi earn",
@@ -148,12 +148,12 @@
     },
     "removeLiquidity": {
       "title": "Xóa tính thanh khoản",
-      "titleInPool": "Xóa thanh khoản khỏi pool # {poolId}",
+      "titleInPool": "Xóa thanh khoản khỏi bể # {poolId}",
       "sharesAmount": "Lượt chia sẻ {shares}"
     },
     "addLiquidity": {
       "title": "Thêm tính thanh khoản",
-      "titleInPool": "Thêm thanh khoản vào pool # {poolId}",
+      "titleInPool": "Thêm thanh khoản vào bể # {poolId}",
       "allAssets": "Tất cả tài sản",
       "singleAsset": "Một tài sản",
       "available": "có sẵn",
@@ -192,7 +192,7 @@
       "unbondedAssets": "Unbonded",
       "bondedAssets": "Bonded",
       "stakedAssets": "OSMO cổ phần",
-      "myPools": "Pool của tôi",
+      "myPools": "Bể thanh khoản của tôi",
       "transferAssetSelect": {
         "deposit": "Đặt cọc ",
         "withdraw": "Rút ra",
@@ -298,7 +298,7 @@
         "less": "Ẩn bớt"
       },
       "table": {
-        "poolId": "Pool #{id}"
+        "poolId": "Bể thanh khoản #{id}"
       },
       "sort": {
         "SORT": "Sắp xếp theo",
@@ -310,7 +310,7 @@
     },
     "menu": {
       "swap": "Hoán đổi",
-      "pools": "pools",
+      "pools": "Các bể thanh khoản",
       "assets": "Tài sản",
       "stake": "Cổ phần",
       "vote": "Bỏ phiếu",
@@ -322,7 +322,7 @@
     "settings": {
       "title": "Cài đặt",
       "titleLanguage": "Ngôn ngữ",
-      "titleShowDust": "Hiển thị pools/tài sản < {fiatSymbol}0.01"
+      "titleShowDust": "Hiển thị các bể thanh khoản/tài sản < {fiatSymbol}0.01"
     },
     "404": {
       "title": "Không tìm thấy"
